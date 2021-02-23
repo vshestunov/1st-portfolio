@@ -1,0 +1,262 @@
+/* GENERAL */
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: blue;
+}
+* {
+
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+body {
+    background-color: #CCCAC6;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #193FA8;
+    top: 0;
+}
+.div-nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid blue;
+}
+.logo {
+    margin: 10px 1%;
+    width: 4%;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.flexnav {
+    width: 96%;
+    display: flex;
+    margin: 10px 1%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav {
+    margin: 0 5%;
+    
+}
+
+.nav a {
+    color: white; 
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #A8F53F;
+}
+
+/* MAIN */
+    /*banner*/
+main {
+    margin-top: 100px;
+}
+
+.container-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+
+}
+
+.banner {
+    background-image: url(./images/bolid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-banner {
+    text-align: center;
+    background-color:hsla(0,0%,0%,0.4);
+    width: 100%;
+}
+
+    /*advantages*/
+
+.container-adv {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.adv {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F28D74;
+    flex-wrap: wrap;
+}
+.adv h2 {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+.inside-adv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 40%;
+    text-align: center;
+    background-color: #5C84F2;
+    padding: 1%;
+    margin: 15px 1%; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+    /*CARS*/
+    .container-cars {
+        margin: 50px 0 100px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .cars {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F28D74;
+        flex-wrap: wrap;
+    }
+    .cars h2 {
+        width: 100%;
+        text-align: center;
+        margin: 50px 0;
+    }
+    .inside-cars {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .cars-img {
+        width: 28%;
+        text-align: center;
+        background-color: #5C84F2;
+        padding: 1%;
+        margin: 15px 1%; 
+    }
+
+    .cars-img img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*FOOTER*/
+    footer {
+    width: 100%;
+    background-color: #193FA8;
+    position: fixed;
+    bottom: 0;
+    }
+    
+    .footer {
+        display: flex;
+        width: 100%;
+        border-bottom: 2px solid blue;
+        flex-direction: row-reverse;
+    }
+
+    .footer-nav {
+        flex-direction: row-reverse;
+    }
+
+    /* MEDIA*/
+
+    @media only screen and (min-width:600px) and (max-width: 1000px) {
+        h1 {
+            font-size: 1.8rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+        .image-container {
+            width: 100%;
+            text-align: center;
+            background-color: #5C84F2;
+            padding: 1%;
+            margin: 15px 1%; 
+        }
+
+        .cars-img {
+            width: 45%;
+            text-align: center;
+            background-color: #5C84F2;
+            padding: 1%;
+            margin: 15px 1%; 
+        }
+    }
+
+    @media only screen and (max-width:600px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.75rem;
+        }
+        .image-container {
+            width: 100%;
+            text-align: center;
+            background-color: #5C84F2;
+            padding: 1%;
+            margin: 15px 1%; 
+        }
+
+        .cars-img {
+            width: 100%;
+            text-align: center;
+            background-color: #5C84F2;
+            padding: 1%;
+            margin: 15px 1%; 
+        }
+    }

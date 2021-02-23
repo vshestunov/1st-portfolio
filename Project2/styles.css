@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#FEFCEC;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 0;
+}
+h3 {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.hnav {
+    width: 98%;
+    margin-right: 40px;
+    height: 100px;
+    background-color: #2AF7E1;
+    position: fixed;
+    left: 1%;
+    top: 0;
+    right: 1%;
+    z-index: 999;
+    
+}
+
+.navlist {
+    margin-left: 1%;
+}
+.headli {
+    float: left;
+    width: 24%;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 1%;
+}
+.fontli {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+#current a{
+    background-color: red;
+    text-decoration: none;
+}
+
+.hnav a {
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color:#BAB294;
+    margin-right: 15px;
+    }
+.hnav a:hover {
+    text-decoration: none;
+}
+
+
+
+.section1 {
+    background-color: blue;
+    margin: 150px 1% 50px 1%;
+    padding: 40px;
+}
+.tab {
+    margin: 50px 1%;
+    border: 2px solid black;
+    
+}
+#red {
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+#green {
+    color: green;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+#blue {
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.examples-colors,
+.examples-fonts {
+    height: 200px;
+    margin: 1%;
+}
+.container {
+    float: left;;
+    width: 33.3333%;
+    height: 150px;
+    margin: 50px 0;  
+}
+.color, 
+.font {
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font {
+    background-color: red;
+    border: 2px solid black;
+}
+#color1 {
+    background-color: #FF0000;     
+}
+#color2 {
+    background-color: #00FF00;
+}
+#color3 {
+    background-color:#0000FF;
+}
+.colors p,
+.fonts p  {
+font-size: 18px;
+font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+     margin: 1%;
+     clear: left;
+     line-height: 30px;
+}
+#roboto {
+    font-family: 'Roboto', cursive;
+    color:  #2AF7E1;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+#montserrat {
+    font-family: 'Montserrat', sans-serif;
+    color:  #2AF7E1;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+#noto {
+    font-family: 'Noto Sans', sans-serif;
+    color:  #2AF7E1;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 700;
+}

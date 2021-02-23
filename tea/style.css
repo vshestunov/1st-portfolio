@@ -1,0 +1,179 @@
+* {
+    opacity: 0.9;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+   
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    box-sizing: border-box;
+    height: 69px;
+    align-items: center;
+    
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navli {
+    margin: 10px;
+    }
+
+main {
+    margin-top: 69px;
+}
+
+.main-container,
+.locations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission {
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headlines {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.headlines h2, .headlines h4 {
+    margin: 10px 0;
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-container img {
+    width: 300px;
+    height: 200px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+.images p {
+    text-align: center;
+    margin: 10px;
+}
+.tea h2,
+.tea h4 {
+    text-align: center;
+}
+
+.locations {
+    background-image: url(./images/locations.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 50px;
+}
+
+.adress {
+    background-color: black;
+}
+.loc div {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+   
+}
+
+.adress {
+    margin: 15px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+   }
+
+.locations h2 {
+    position: absolute;
+    bottom: 415px;
+    margin: 0;
+}
+
+.main-foot {
+    height: 200px;
+    text-align: center;
+}
+
+.main-foot a {
+    text-decoration: none;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+#oakdale {
+    opacity: 1.0 !important;
+}
