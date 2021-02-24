@@ -4,23 +4,12 @@ let navigation=document.getElementById('navv');
 let navChange = () => {
     if (window.scrollY===0) {
         navigation.style.cssText=`
-        position: fixed;
-        display: flex;
-        width: 100%;
         height: 85px;
-        background-color: blue;
-        align-items: center;
-        z-index: 20;`; 
+        background-color: rgba(0, 51, 204, 0.5);`;
     }
         else {navigation.style.cssText=`
-        position: fixed;
-        display: flex;
-        width: 100%;
         height: 90px;
-        background-color: red;
-        align-items: center;
-        z-index: 20;
-        opacity: 0.8;`;
+        background-color: rgba(0, 102, 255, 1);`;
         }   
 };
 
