@@ -57,10 +57,37 @@ arrow3.addEventListener('click', showProject3);
 arrow4.addEventListener('click', showProject4);
 arrow5.addEventListener('click', showProject5);
 
+let hide1=document.getElementById('hide1');
+let hideProject1 = () => {
+    hidden1.style.display='none';
+    arrow1.style.display='block';
+}
+
+let hide2=document.getElementById('hide2');
+let hideProject2 = () => {
+    hidden2.style.display='none';
+    arrow2.style.display='block';
+}
+
+let hide3=document.getElementById('hide3');
+let hideProject3 = () => {
+    hidden3.style.display='none';
+    arrow3.style.display='block';
+}
+
+let hide4=document.getElementById('hide4');
+let hideProject4 = () => {
+    hidden4.style.display='none';
+    arrow4.style.display='block';
+}
+
 let hide5=document.getElementById('hide5');
 let hideProject5 = () => {
     hidden5.style.display='none';
     arrow5.style.display='block';
 }
-
+hide1.addEventListener('click', hideProject1);
+hide2.addEventListener('click', hideProject2);
+hide3.addEventListener('click', hideProject3);
+hide4.addEventListener('click', hideProject4);
 hide5.addEventListener('click', hideProject5);
