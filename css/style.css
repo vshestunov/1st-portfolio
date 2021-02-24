@@ -122,6 +122,12 @@ main h1 {
     margin: 30px 0;
 }
 
+.projects-container {
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+}
+
 .project-list {
     width: 100%;
 }
@@ -135,11 +141,6 @@ main h1 {
     width: 100%;
 }
 
-.projects-container {
-    display: flex;
-    width: 90%;
-    justify-content: flex-start;
-}
 
 .arrow {
     width: 15px;
@@ -164,4 +165,38 @@ main h1 {
 
 .project-technologies i {
     margin: 0 1%;
+}
+
+/* My Techs */
+
+#My-techs {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: justify;
+    margin: 30px 0;
+}
+
+.techs-container {
+    width: 90%;
+    text-align: center;
+}
+
+.techs-container h2 {
+    margin: 30px 0;
+}
+
+.techs {
+    font-size: 2.5rem;
+    color: blue;
+    margin: 0 1%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.techs a {
+    color: blue;
+    margin: 30px 1%;
 }
