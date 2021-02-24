@@ -17,6 +17,7 @@ h2 {
 p {
     font-size: 1.5rem;
 }
+
 /** HEADER SCTION **/
 
 #navv {
@@ -96,6 +97,8 @@ main {
     justify-content: center;
     display: flex;
     text-align: justify;
+    height: 100vh;
+   
 }
 
 .about {
@@ -103,6 +106,7 @@ main {
     width: 90%;
     height: auto;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about h2 {
@@ -110,13 +114,13 @@ main {
 }
 
 .about-text {
-    width: 65%;
+    width: 63%;
     height: auto;
     margin: 1rem 1%;
 }
 
 .about-photo {
-    width: 35%;
+    width: 33%;
     height: auto;
     margin: 1rem 1%;
 }
@@ -138,8 +142,14 @@ main {
     display: flex;
     width: 90%;
     justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh;
 }
-
+.projects-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 15vh;
+}
 .project-list {
     width: 100%;
 }
@@ -152,19 +162,19 @@ main {
     flex-wrap: wrap;
     width: 100%;
 }
-
+.arrow-container {
+    width: 100%;
+}
 
 .arrow {
-    width: 15px;
-    height: auto;
+    
     margin-right: 5px;
     cursor: pointer;
 }
 
 .hidden-project {
-    width: 100%;
+    width: 60%;
     height: auto;
-    
 }
 
 .project-screenshot {
@@ -211,4 +221,9 @@ main {
 .techs a {
     color: blue;
     margin: 30px 1%;
+}
+
+/* CONTACT ME */
+#contact-me {
+    height: 100vh;
 }
