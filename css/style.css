@@ -243,7 +243,7 @@ main {
 
 /* CONTACT ME */
 #contact-me {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -293,7 +293,7 @@ main {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .desktop {
         display: none;
     }
@@ -308,6 +308,7 @@ main {
         justify-content: flex-end;
         z-index: 10;
         top: 0;
+        right: 0;
     }
 
     #navbutton {
@@ -315,7 +316,6 @@ main {
         width: 3rem;
         height: 3rem;
         position: relative;
-        margin-right: 2%;
         cursor: pointer;
         border: 2px solid white;
         border-radius: 5px;
@@ -377,7 +377,7 @@ main {
     }   
 }
 
-@media only screen  and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
     .projects-container,
     .about,
